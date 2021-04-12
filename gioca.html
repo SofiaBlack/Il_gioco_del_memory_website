@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="it">
+	<head>
+		<title>Il gioco del Memory</title>
+        <meta charset="utf-8" />
+		<script src="js/memory.js"></script>
+		<link href="https://fonts.googleapis.com/css?family=Acme" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	<body>
+		<header>
+			<div>
+				<img id="titolo" src="img/titolo.png" alt="titolo"/>
+			</div>
+			<nav class="menu" >
+				<ul class="menu_list" id="menu_list">
+					<li><a href="index.html"> HOME </a></li>
+					<li><a href="crediti.html"> CREDITI </a></li>
+				</ul>
+			</nav>
+		</header>
+<!--HOME-->
+		<section>
+			<p id="color">
+				Scopri le carte tenendo traccia del numero di coppie non coincidenti girate. 
+				L'obiettivo &#232; di trovare tutte le coppie di carte nel minor numero di mosse possibili.
+			</p>
+			<h2 class="titolo">STRATEGIA:</h2>
+			<p>
+				I primi turni del gioco hanno un andamento casuale.
+				Man mano che le carte vengono scoperte e rimesse in gioco, i giocatori inizieranno a ricordare la posizione di alcune cos&#204; da poter riuscire a comporre le coppie. 
+				<br />
+				Al giocatore che pensa di aver localizzato una coppia, &#232; consigliato scoprire prima la carta di cui &#232; meno certo; in questo modo, in caso di fallimento, evita di scoprire una carta che conosce gi&#224;.
+			</p>
+			<h2 id="istruzioni">SELEZIONA DIFFICOLT&#192; DI GIOCO:</h2>
+			<div id="button">
+				<input id="easy" type="button" value="EASY">
+				<input id="normal" type="button" value="NORMAL">
+				<input id="hard" type="button" value="HARD">
+			</div>
+			<!--EASY-->
+            <div id="game">
+			</div>
+		</section>
+		<footer>
+			<p id="textfooter">
+				&#169; By Sofia Montagna - Mat. 544914
+			</p>
+		</footer>
+	</body>
+</html>
